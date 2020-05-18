@@ -15,5 +15,3 @@ target_link_libraries(frameDifferencing ${OpenCV_LIBS})
 
 add_executable(backgroundSubtraction backgroundSubtraction.cpp)
 target_link_libraries(backgroundSubtraction ${OpenCV_LIBS})
-
-add_executable(c08 main.cpp)
